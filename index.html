@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WILD TRAVELS</title>
+        <!-- Bootstrap CDN CSS  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <style>
+        .navbar{
+            background-color: transparent;
+        }
+    </style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            
+            <img  height="50px" src="./travel_logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img width="100%" height="600px"  src="https://img.freepik.com/free-photo/beautiful-shot-sydney-harbor-bridge-with-light-pink-blue-sky_181624-16041.jpg?t=st=1723700397~exp=1723703997~hmac=6e88c210929102540738f92f17a3811f8a880818b845e42d0421df489dd03d8d&w=740" class="d-block w-100" alt="Bordeaux, France">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sydney, Australia</h5>
+                    <p>Known for its iconic landmarks, such as the Sydney Opera House and the Sydney Harbour Bridge.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img width="90%" height="600px" src="https://img.freepik.com/free-photo/bali-pagoda-sunrise-indonesia_1150-11013.jpg?t=st=1723701499~exp=1723705099~hmac=afeca6e6b239cfcda21ea15b0357ae8c25a13e2b6e16aeab680e17ca4c877768&w=740" class="d-block w-100" alt="Santorini, Greece">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bali, Indonesia</h5>
+                    <p>Known for its stunning landscapes, rich culture, and vibrant nightlife. Whether you're interested in beaches, temples, or adventure activities</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img width="90%" height="600px" src="https://img.freepik.com/free-photo/cityscape-paris-sunlight-blue-sky-fra_181624-50289.jpg?t=st=1723701511~exp=1723705111~hmac=7c35f0730a56f9e2833291a8a67b4983c3f0e9c476259e8b369481f36b07d14d&w=740" class="d-block w-100" alt="Amalfi Coast, Italy">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Paris, France</h5>
+                    <p>"The City of Light," is one of the most famous and romantic cities in the world. </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- about -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./abt.jpg" class="img-fluid" alt="travel logo">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h2 style="margin-left: 50px;">Explore the World with Us</h2>
+                    <p style="margin-left: 50px;">At <b>WILD TRAVELS</b>, we believe that every journey is an opportunity to discover new horizons, create unforgettable memories, and connect with different cultures. Whether you're seeking adventure, relaxation, or a deep cultural experience, we're here to make your travel dreams a reality with curated itineraries, insider tips, and seamless bookings.</p>
+                    <br>
+                    <i style="margin-left: 50px;">Join us on a journey where every destination is more than just a place—</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- packages -->
+    <section id="packages">
+        <h1 class="text-center">PACKAGES</h1>
+        <br><br>
+        <div class="container-fluid" id="service-container">
+          <div class="row" id="banner-row">
+            <div class="col-md-4" id="service-col1">
+              <img height="240px"
+                src="https://cdn.britannica.com/78/155378-050-838B4322/Himalayas-Nepal.jpg"
+                class="img-fluid rounded mx-auto d-block"
+                alt="..."
+              />
+              <h3>NEPAL TOUR PACKAGE</h3>
+              
+  <p>
+    Beautiful country known for its stunning natural landscapes, rich cultural heritage, and adventure tourism.
+              </p>
+  
+            </div>
+            <div class="col-md-4" id="service-col2">
+              <img height="140px"
+                src="https://fis-api.luxuryholidaynepal.com/media/blog/banner/getting-into-bhutan.jpg"
+                class="img-fluid rounded mx-auto d-block"
+                alt="..."
+              />
+              <h3>BHUTAN TOUR PACKAGE</h3>
+              
+  <p>
+    Beautiful country known for its stunning natural landscapes, rich cultural heritage, and adventure tourism.
+              </p>
+  
+            </div>
+            <div class="col-md-4" id="service-col3">
+              <img  id="img3"
+                src="https://media.nomadicmatt.com/vietnamguide.jpg"
+                class="img-fluid rounded mx-auto d-block"
+                alt="..."
+              />
+              <h3>VIETNAM TOUR PACKAGE</h3>
+              
+  <p>
+    Beautiful country known for its stunning natural landscapes, rich cultural heritage, and adventure tourism.
+              </p>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- section -->
+      <div class="row1">
+        <div class="new">
+         <h1 id="travel">TRAVEL<span id="tips">GUIDE</span></h1>
+         <br>
+         <p id="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing <br> elit.  Quia blanditiis earum placeat qui laboriosam neque <br>dolorum praesentium dolore, minima modi enim accusantium ad illum,</p>
+        </div>
+        <div class="user"> <img class="group2" src="https://cdn.prod.website-files.com/5e3ce2ec7f6e53c045fe7cfa/6346cff779787b3be4a2055c_Airport%20Arrival.png" alt=""></div>
+       
+       </div>
+  
+
+    <!-- Footer -->
+    <footer id="Contact" class="bg-light text-center py-4 ">
+        <div class="container  ">
+            <p class="mb-0">Contact: wildtravels@gmail.com, +91 9446945591</p>
+            <p class="text-center m-0">© Bootstrap website - Aug 2024. All Rights Reserved to ® Diya krishna</p>
+
+        </div>
+    </footer>
+
+
+</body>
+<!-- BOOTTRAP CDN Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
